@@ -2,6 +2,7 @@
 
 A high-performance **PDF Question Answering system** built using **Hybrid Retrieval-Augmented Generation (RAG)**.  
 This project combines **BM25 + Dense Retrieval**, **Cross-Encoder Re-Ranking**, and **LLM-based response generation** to deliver accurate and context-aware answers from documents.
+
 ## Overview
 
 Traditional RAG systems often suffer from poor retrieval quality.  
