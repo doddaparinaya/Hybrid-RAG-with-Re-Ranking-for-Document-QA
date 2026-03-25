@@ -15,25 +15,31 @@ This project improves performance by introducing:
 
 ## Architecture
 User Query
-↓
+
+     ↓
+     
 Query Rewriting (LLM)
 
-↓
-Hybrid Retrieval (BM25 + Dense)
+      ↓
+      
+ Hybrid Retrieval (BM25 + Dense)
 
-↓
+      ↓
+      
 Retrieval Quality Check
 
-↓
+      ↓
+      
 Re-Ranking (Cross Encoder)
 
-↓
+      ↓
+      
 Top-K Context Selection
 
-↓
+      ↓
 LLM (Google Gemini)
 
-↓
+      ↓
 Final Answer
 
 ## Features
